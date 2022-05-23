@@ -1,9 +1,40 @@
-<div class="form-container">
+<div class="form-container" >
 <h3>add a bottle</h3>
-<form class="add-form">
+<form class="add-form" (ngSubmit)="onSubmit()">
     <div class="form-control">
-        <input type="text" name="name" id="name" placeholder="Wine Name" />
+        <input type="text" name="producer" id="producer" [(ngModel)]="producer" placeholder="Producer" />
     </div>
-    <input type="submit" value="Add Wine" class="btn btn-block" />
+    <div class="form-control">
+        <input type="text" name="wine" id="wine" [(ngModel)]="wine" placeholder="Wine Name" />
+    </div>
+    <div class="form-control">
+        <input type="number" name="vintage" id="vintage" [(ngModel)]="vintage" placeholder="Vintage" />
+    </div>
+    <div class="form-control">
+        <select type="text" name="wineType" id="wineType" [(ngModel)]="wineType" placeholder="Wine Type">
+            <option value="null" disabled selected hidden>Wine Type</option>"
+            <option value="Red Wine">Red</option>
+            <option value="White Wine">White</option>
+            <option value="Rose">Rose</option>
+            <option value="Sparkling Wine">Sparkling</option>
+            <option value="Dessert/Fortified/Other">Other</option>
+        </select>
+    </div>
+    <div class="form-control">
+        <input type="text" name="region" id="region" [(ngModel)]="region" placeholder="Region" />
+    </div>
+    <div class="form-control">
+        <input type="text" name="variety" id="variety" [(ngModel)]="variety" placeholder="Variety" />
+    </div>
+    <div class="form-control">
+        <input type="text" name="notes" id="notes" [(ngModel)]="notes" placeholder="Notes" />
+    </div>
+    <div class="form-control">
+        <input type="text" name="location" id="location" [(ngModel)]="location" placeholder="Cellar Location" />
+    </div>
+    <div class="form-control">
+        <input type="number" name="quantity" id="quantity" [(ngModel)]="quantity" placeholder="Quantity" />
+    </div>
+    <input type="submit" value="add wine" class="btn btn-block" />
 </form>
 </div>
