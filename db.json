@@ -1,0 +1,40 @@
+{
+    "wines": [
+        {
+            "id": 1,
+            "producer": "Chateau Lafite",
+            "wine": "Grand Vin",
+            "vintage": "2000",
+            "wineType": "red wine",
+            "region": "Pauillac",
+            "variety": "Cabernet Blend",
+            "notes": "100 Points Wine Spectator",
+            "location": "C1",
+            "quantity": "12"
+        },
+        {
+            "id": 2,
+            "producer": "Chateau Lafite",
+            "wine": "Grand Vin",
+            "vintage": "2005",
+            "wineType": "red wine",
+            "region": "Pauillac",
+            "variety": "Cabernet Blend",
+            "notes": "100 Points Wine Spectator",
+            "location": "C2",
+            "quantity": "12"
+        },
+        {
+            "id": 3,
+            "producer": "Chateau Lafite",
+            "wine": "Grand Vin",
+            "vintage": "2010",
+            "wineType": "red wine",
+            "region": "Pauillac",
+            "variety": "Cabernet Blend",
+            "notes": "100 Points Wine Spectator",
+            "location": "C3",
+            "quantity": "12"
+        }
+    ]
+}
